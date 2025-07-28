@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A well-structured, accessible, and SEO-friendly sample HTML5 webpage." />
+  <meta name="author" content="James Mayen" />
+  <title>Accessible & SEO-Friendly HTML5 Page for Amal</title>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" title="Go to About Section">About</a></li>
+        <li><a href="#services" title="Go to Services Section">Services</a></li>
+        <li><a href="#contact" title="Go to Contact Section">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Amal Accessible & SEO-Friendly Webpage</h1>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>
+        We are dedicated to building inclusive and optimized web experiences using modern HTML5 standards. Our mission is to ensure all users, regardless of ability, can access content seamlessly.
+      </p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article>
+        <h3>Web Accessibility Audits</h3>
+        <p>
+          We analyze websites to ensure they meet international accessibility standards such as WCAG.
+        </p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>
+          Our SEO experts help you increase your site’s visibility on search engines through content structuring and metadata improvements.
+        </p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <form action="#" method="POST" aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Amal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
